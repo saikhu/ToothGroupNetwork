@@ -12,6 +12,10 @@ output_path/
 example_data/
 wandb/
 *.h5
+*.zip
+ground-truth_labels_instances/
+ground-truth_labels_instances_b2/
+data/3dteethseg_new
 
 # Distribution / packaging
 .Python
@@ -134,3 +138,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+ckpts/base_name_test_fold.txt
+ckpts/base_name_train_fold.txt
+ckpts/base_name_val_fold.txt
